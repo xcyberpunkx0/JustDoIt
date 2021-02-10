@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:just_do_it/models/task_data.dart';
-import 'package:just_do_it/screens/task_screen.dart';
+import './screens/task_screen.dart';
+import 'package:just_do_it/screens/updated_task_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => TaskData(),
       child: MaterialApp(
-        home: TaskScreen(),
+        debugShowCheckedModeBanner: false,
+        home: UpdatedTaskScreen(),
       ),
     );
   }
