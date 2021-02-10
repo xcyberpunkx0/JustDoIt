@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:just_do_it/models/task_data.dart';
-import './screens/task_screen.dart';
 import 'package:just_do_it/screens/updated_task_screen.dart';
 import 'package:provider/provider.dart';
 
