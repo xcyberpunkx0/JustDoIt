@@ -1,6 +1,6 @@
 # just_do_it
 
-A new Flutter project.
+A Simple Minimal To-Do List app made using flutter.
 
 ## Getting Started
 
