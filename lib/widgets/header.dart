@@ -1,3 +1,9 @@
+// This Flutter code defines a `Header` widget that displays a decorative header section with a gradient background. 
+// It uses a custom clipper, `MyClipper`, to create a curved shape at the bottom of the header. 
+// The `ClipPath` widget is used to apply this clipper to the `Container`, and the header has a fixed height and gradient background with colors transitioning from blue to light green. The result is an aesthetically pleasing header element with a subtle curve at the bottom. 
+// This can be added to app interfaces for a visually appealing header section. 
+// The `Header` widget is stateful, but its state remains static in this code.
+
 import 'package:flutter/material.dart';
 
 class Header extends StatefulWidget {

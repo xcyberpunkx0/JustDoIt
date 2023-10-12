@@ -5,6 +5,11 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
+// This serves as a fundamental Flutter widget test. 
+// To engage with a widget during your testing, make use of the WidgetTester tool supplied by Flutter. 
+// This tool allows you to carry out actions like tapping and scrolling, as well as locating child widgets
+// within the widget hierarchy, reading text, and confirming the accuracy of widget property values.
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
